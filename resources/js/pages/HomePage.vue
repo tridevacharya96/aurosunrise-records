@@ -120,7 +120,7 @@ const artists = [
 </script>
 
 <style scoped>
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&family=Cinzel:wght@400;600;700;900&family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400;0,6..96,700;0,6..96,900;1,6..96,400&family=Cinzel+Decorative:wght@400;600;700;900&family=Inter:wght@300;400;500;600;700;800;900&display=swap
 
 /* ── Base ── */
 main {
@@ -190,7 +190,7 @@ main {
 }
 
 .hero-title {
-  font-family: 'Cinzel', serif;
+  font-family: 'Cinzel Decorative', serif;
   font-size: clamp(3.5rem, 10vw, 8rem);
   font-weight: 700;
   line-height: 1;
@@ -213,7 +213,7 @@ main {
 }
 
 .hero-desc {
-  font-family: 'Cormorant Garamond', serif;
+  font-family: 'Playfair Display', serif;
   font-size: clamp(1.1rem, 2.5vw, 1.4rem);
   font-style: italic;
   max-width: 560px;
@@ -273,7 +273,7 @@ main {
 }
 .stat { display: flex; flex-direction: column; align-items: center; gap: .2rem; }
 .stat-num {
-  font-family: 'Cinzel', serif;
+  font-family: 'Cinzel Decorative', serif;
   font-size: 2rem;
   font-weight: 700;
   color: #ff6b00;
@@ -360,7 +360,7 @@ main {
   display: flex; align-items: center; justify-content: center;
 }
 .vinyl-label {
-  font-family: 'Cinzel', serif;
+  font-family: 'Cinzel Decorative', serif;
   font-size: 1.4rem;
   font-weight: 700;
   color: #fff;
@@ -385,7 +385,7 @@ main {
   box-shadow: 0 10px 30px rgba(255,107,0,0.4);
 }
 .badge-num {
-  font-family: 'Cinzel', serif;
+  font-family: 'Cinzel Decorative', serif;
   font-size: 2.5rem;
   font-weight: 700;
   color: #fff;
@@ -402,7 +402,7 @@ main {
   font-weight: 500;
 }
 .section-title {
-  font-family: 'Cinzel', serif;
+  font-family: 'Cinzel Decorative', serif;
   font-size: clamp(1.8rem, 3.5vw, 2.8rem);
   font-weight: 700;
   color: #fff;
@@ -413,7 +413,7 @@ main {
 .accent-text { color: #ff6b00; }
 
 .about-desc {
-  font-family: 'Cormorant Garamond', serif;
+  font-family: 'Playfair Display', serif;
   color: rgba(255,255,255,0.6);
   line-height: 1.9;
   font-size: 1.15rem;
@@ -450,14 +450,14 @@ main {
 .artist-card:hover { transform: translateY(-10px); border-color: rgba(255,107,0,0.5); box-shadow: 0 24px 60px rgba(255,107,0,0.2); }
 .artist-img { height: 200px; display: flex; align-items: center; justify-content: center; }
 .artist-initials {
-  font-family: 'Cinzel', serif;
+  font-family: 'Cinzel Decorative', serif;
   font-size: 3rem;
   font-weight: 700;
   color: #fff;
 }
 .artist-info { padding: 1.35rem; }
 .artist-info h3 {
-  font-family: 'Cinzel', serif;
+  font-family: 'Cinzel Decorative', serif;
   color: #fff;
   font-size: 1rem;
   font-weight: 600;
@@ -499,7 +499,7 @@ main {
 }
 .cta-content { position: relative; z-index: 2; }
 .cta-title {
-  font-family: 'Cinzel', serif;
+  font-family: 'Cinzel Decorative', serif;
   font-size: clamp(2.5rem, 5vw, 4.5rem);
   font-weight: 700;
   color: #fff;
@@ -508,7 +508,7 @@ main {
   letter-spacing: 2px;
 }
 .cta-desc {
-  font-family: 'Cormorant Garamond', serif;
+  font-family: 'Playfair Display', serif;
   color: rgba(255,255,255,0.55);
   font-size: 1.25rem;
   max-width: 420px;

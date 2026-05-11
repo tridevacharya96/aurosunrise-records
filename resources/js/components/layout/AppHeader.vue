@@ -35,7 +35,7 @@ onUnmounted(() => window.removeEventListener('scroll', onScroll))
 </script>
 
 <style scoped>
-@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap');
 
 .site-header {
   position: fixed;
@@ -66,7 +66,7 @@ onUnmounted(() => window.removeEventListener('scroll', onScroll))
   flex-shrink: 0;
 }
 .logo-main {
-  font-family: 'Cinzel', serif;
+  font-family: 'Cinzel Decorative', serif;
   font-size: 1.25rem;
   font-weight: 700;
   color: #fff;
