@@ -170,8 +170,11 @@ main {
   z-index: 2;
   text-align: center;
   padding: 2rem;
-  max-width: 900px;
+  max-width: 1100px;
   width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .hero-eyebrow {
@@ -187,16 +190,22 @@ main {
 
 .hero-brand {
   margin-bottom: 2rem;
+  text-align: center;
+  width: 100%;
 }
 
 .hero-title {
   font-family: 'Cinzel Decorative', serif;
+  text-align: center;
+  width: 100%;
   font-size: clamp(3.5rem, 10vw, 8rem);
   font-weight: 700;
   line-height: 1;
   margin: 0 0 .5rem;
   color: #fff;
   letter-spacing: 4px;
+  text-align: center;
+  width: 100%;
   text-shadow:
     0 0 80px rgba(255,107,0,0.6),
     0 4px 30px rgba(0,0,0,0.5);
@@ -300,6 +309,8 @@ main {
   color: rgba(255,255,255,0.3);
   font-size: .65rem;
   letter-spacing: 4px;
+  text-align: center;
+  width: 100%;
   text-transform: uppercase;
   font-family: 'Inter', sans-serif;
 }
@@ -325,6 +336,8 @@ main {
   font-weight: 700;
   font-size: .78rem;
   letter-spacing: 4px;
+  text-align: center;
+  width: 100%;
   color: #fff;
   text-transform: uppercase;
 }
